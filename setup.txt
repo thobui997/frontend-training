@@ -1,0 +1,5 @@
+các extension sử dụng trong vscode
+
+1. Live server
+2. Elm Emmet
+3. Prettier

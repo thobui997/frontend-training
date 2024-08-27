@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./style.css" />
+		<style>
+			h1 {
+				background-color: blue;
+				color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- cách 1: inline style -->
+		<h1 style="background-color: red; color: white">
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas quis
+		</h1>
+
+		<!-- cách 2: internal style -->
+		<h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas quis</h2>
+
+		<!-- cách 3: external style -->
+		<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas quis</h3>
+
+		<!-- nhom 1: simple css selector -->
+		<p id="text1" class="bg-text">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eaque
+			harum eum magni obcaecati dolor possimus quaerat optio corrupti officia
+			neque fugiat, laboriosam quod vel vitae labore voluptatem ipsam ullam.
+		</p>
+
+		<p id="text2" class="bg-text">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. 2
+		</p>
+
+		<p id="text3" class="bg-text">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit.3
+		</p>
+
+		<div class="bg-text">abc</div>
+
+		<div>cde</div>
+
+		<!-- nhom 2: attribute selector -->
+		<a href="#" target="_blank">google</a>
+		<a href="google.com" target="_blank">youtube</a>
+		<a href="google.com" target="_self">facebook</a>
+
+		<img src="../../ illustrations/html-css-js.png" />
+
+		<!-- nhom 3: pseudo class and element -->
+		<input id="checkbox1" type="checkbox" value="1" />
+		<input id="checkbox2" type="checkbox" value="2" />
+
+		<!-- nhom 4: combinator selector -->
+		<div>
+			<section>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.1</p>
+			</section>
+
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.2</p>
+		</div>
+
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.3</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.4</p>
+	</body>
+</html>

@@ -1,0 +1,55 @@
+h1 {
+	background-color: green;
+	color: yellow;
+}
+
+/* độ ưu tiên: id > class > p */
+/* element selector */
+p {
+	color: rgb(11, 107, 75);
+}
+
+/* id selector */
+#id {
+	border: 2px solid #333;
+	color: #333;
+}
+
+/* class selector */
+.bg-text {
+	background-color: bisque;
+	color: blueviolet;
+}
+
+/* attribute selector */
+a[target="_blank"] {
+	color: rgb(15, 113, 10);
+}
+
+img[src] {
+  width: 300px;
+  height: 300px;
+}
+
+/* pseudo class and element */
+a:active {
+  color: blanchedalmond;
+}
+
+#checkbox1:checked {
+  accent-color: red;
+}
+
+
+/* combinator selector */
+div p {
+  color: brown;
+}
+
+div p {
+  color: brown;
+}
+
+div + p {
+  color: brown;
+}

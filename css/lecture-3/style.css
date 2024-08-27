@@ -1,0 +1,7 @@
+.text {
+  width: 120px;
+  height: 60px;
+  border: dotted;
+  /* overflow-x, overflow-y: auto, scroll, hidden */
+  overflow: scroll;
+}
