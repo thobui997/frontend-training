@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+header,
+nav,
+section,
+aside,
+article,
+footer {
+	border: 1px solid;
+	text-align: center;
+}
+
+/* header */
+header {
+	background-color: red;
+	height: 40px;
+}
+
+nav {
+	background-color: aqua;
+	height: 30px;
+}
+
+main {
+	display: flex;
+	gap: 10px;
+}
+
+div {
+	flex-grow: 3;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+aside {
+	flex-grow: 1;
+}
+
+section {
+	background-color: orange;
+}
+
+article {
+	background-color: yellow;
+}
+
+aside {
+	background-color: violet;
+}
+
+footer {
+	background-color: grey;
+	height: 40px;
+	text-align: center;
+}
