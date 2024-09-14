@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body,
+html {
+	font-family: var(--primary-font);
+	font-weight: 400;
+	font-style: normal;
+	background-color: #f1f1f1;
+}
+
+/* css variable */
+:root {
+	--primary-color: #009688;
+	--primary-font: "Roboto", sans-serif;
+    --primary-size: 10px;
+    --secondary-color: #abcffd;
+    --bg-color: #eeeeee;
+}
+
+img {
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.wrapper {
+	max-width: 1280px;
+	margin: 10px auto;
+}
+main {
+	display: flex;
+	gap: 20px;
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.information {
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+}
+
+.my-image {
+	height: 30%;
+}
+
+.full-name {
+	margin-left: 10px;
+	margin-top: -40px;
+	color: aliceblue;
+}
+
+.personal-information {
+	padding: 10px;
+	flex: 1;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.icon {
+	color: var(--primary-color);
+	margin: 0 5px;
+}
+
+/* skills */
+.skills,
+.languages {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.skills-content,
+.languages-content {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.progress-bar {
+	width: 100%;
+	height: 20px;
+	background-color: #f1f1f1;
+	border-radius: 10px;
+}
+
+.rated {
+	color: white;
+	background-color: #009688;
+	text-align: center;
+	border-radius: 10px;
+	height: inherit;
+}
+
+.photoshop {
+	width: 90%;
+}
+
+.photography {
+	width: 80%;
+}
+
+.illustrator {
+	width: 75%;
+}
+
+.media {
+	width: 50%;
+}
+
+.english {
+	width: 70%;
+}
+
+.spanish {
+	width: 60%;
+}
+
+.german {
+	width: 40%;
+}
+
+/* end information */
+
+.biography {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.work-experience {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.work-experience-content {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.time {
+	display: flex;
+	gap: 20px;
+	color: var(--primary-color);
+	align-items: center;
+}
+
+.job-title {
+	color: rgb(117, 117, 117);
+}
+
+.current {
+	display: inline-block;
+	color: #fff;
+	background-color: var(--primary-color);
+	padding: 5px;
+	border-radius: 4px;
+}
+
+/* end biography */
+.education {
+	border: 1px solid rgb(195, 195, 195);
+	box-shadow: 2px 2px 10px rgb(105, 104, 104);
+	padding: 20px;
+}
+
+hr {
+	background-color: rgb(117, 117, 117);
+	margin: 20px 0;
+}
+
+footer {
+	background-color: #009688;
+	text-align: center;
+	padding: 10px;
+	color: white;
+}
+
+.icon-contact {
+	font-size: 30px;
+}
+
+a {
+	color: white;
+}
