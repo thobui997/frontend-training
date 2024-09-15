@@ -15,9 +15,9 @@ html {
 :root {
 	--primary-color: #009688;
 	--primary-font: "Roboto", sans-serif;
-    --primary-size: 10px;
-    --secondary-color: #abcffd;
-    --bg-color: #eeeeee;
+	--primary-size: 10px;
+	--secondary-color: #abcffd;
+	--bg-color: #eeeeee;
 }
 
 img {
@@ -30,7 +30,9 @@ img {
 .wrapper {
 	max-width: 1280px;
 	margin: 10px auto;
+	padding: 0 15px;
 }
+
 main {
 	display: flex;
 	gap: 20px;
@@ -47,12 +49,13 @@ main {
 
 .information {
 	width: 35%;
+	height: fit-content;
 	display: flex;
 	flex-direction: column;
 }
 
 .my-image {
-	height: 30%;
+	height: 300px;
 }
 
 .full-name {
@@ -63,7 +66,6 @@ main {
 
 .personal-information {
 	padding: 10px;
-	flex: 1;
 }
 
 .contact {
@@ -201,4 +203,14 @@ footer {
 
 a {
 	color: white;
+}
+
+@media screen and (max-width: 739px) {
+	main {
+		flex-direction: column;
+	}
+
+	.information {
+		width: 100%;
+	}
 }

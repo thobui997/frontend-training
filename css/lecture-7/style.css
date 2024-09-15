@@ -1,0 +1,36 @@
+/* max-width: 1024px <=> kich_thuoc_man_hinh <= 1024px */
+/* min-width: 1024px <=> kich_thuoc_man_hinh >= 1024px */
+
+/* 
+  Break point:
+  - PC: >= 1024px
+  - tablet: >= 740px and < 1024px
+  - mobile: < 740px
+*/
+
+/* PC */
+@media screen and (min-width: 1024px) {
+	.tablet,
+	.mobile {
+		display: none;
+	}
+}
+
+/* tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+	.pc,
+	.mobile {
+		display: none;
+	}
+}
+
+/* mobile */
+@media screen and (max-width: 739px) {
+	.pc,
+	.tablet {
+		display: none;
+	}
+}
+
+/* desktop first: css cho man hinh (>= 1024px) truoc */
+/* mobile first: css cho man hinh (< 740px) truoc */
