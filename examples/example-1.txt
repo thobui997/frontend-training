@@ -1,0 +1,17 @@
+tạo 1 danh sách sinh viên
+
+Sinh viên có các thuộc tính:
+- tên
+- họ
+- tuổi
+- mã sinh viên
+- tên trường đại học
+- ngành học
+- số điện thoại
+- địa chỉ:
+  + thành phố
+  + huyện
+  + xã/phường
+
+1. có thêm 1 sinh viên mới vào danh sách
+2. có thể xóa 1 sinh viên ở cuối danh sách
