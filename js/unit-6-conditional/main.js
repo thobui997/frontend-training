@@ -109,5 +109,5 @@ var b = 10;
 // }
 
 // c1: (a > b) ? str = "a > b" : str = "a < b";
-var str = a > b ? `${a} > ${b}`: `${a} < ${b}`;
+var str = a > b ? `${a} > ${b}` : `${a} < ${b}`;
 console.log(str);
